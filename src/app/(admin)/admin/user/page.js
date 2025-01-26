@@ -1,9 +1,10 @@
+import { FullComponent } from '@/components/fullchart'
 import React from 'react'
 
 const page = () => {
   return (
-    <div>
-      <h1>Admin User Page</h1>
+    <div className="container mx-auto">       
+      <FullComponent/>
     </div>
   )
 }

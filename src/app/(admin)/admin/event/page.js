@@ -1,9 +1,10 @@
+import TableApp from '@/components/table'
 import React from 'react'
 
 const Event = () => {
   return (
-    <div className=' items-center justify-items-center'> 
-        <h1>Event Page</h1>
+    <div className=' items-center justify-items-center w-full'> 
+        < TableApp/>
     </div>
   )
 }
